@@ -18,8 +18,8 @@ class PickerDialog extends StatefulWidget {
     this.initialValue,
     Widget confirmWidget,
     Widget cancelWidget,
-  })  : confirmWidget = confirmWidget ?? Text("OK"),
-        cancelWidget = cancelWidget ?? Text("CANCEL");
+  })  : confirmWidget = confirmWidget ?? Text("确定"),
+        cancelWidget = cancelWidget ?? Text("取消");
 
   // Variables
   final List<String> items;
